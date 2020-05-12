@@ -1,7 +1,11 @@
 const Express = require("express");
 const { createGraphQLServer } = require("./graphql");
+const database = require("./db");
 
 const express = new Express();
+
+// Connect to database
+database.connect();
 
 // BodyParser
 express.use(Express.json());
