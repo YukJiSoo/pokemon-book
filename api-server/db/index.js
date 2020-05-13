@@ -9,30 +9,30 @@ const config = require("./config");
 
 const database = {
   sequelize: null,
-  trainer: null,
-  pokemon: null,
-  pokemonsOwnedByTrainer: null,
-  evolutionRelation: null,
+  Trainer: null,
+  Pokemon: null,
+  PokemonsOwnedByTrainer: null,
+  EvolutionRelation: null,
 
   async connect() {
     this.sequelize = new Sequelize(config);
 
-    this.trainer = Trainer(this.sequelize);
-    this.pokemon = Pokemon(this.sequelize);
-    this.pokemonsOwnedByTrainer = PokemonsOwnedByTrainer(this.sequelize);
-    this.evolutionRelation = EvolutionRelation(this.sequelize);
+    this.Trainer = Trainer(this.sequelize);
+    this.Pokemon = Pokemon(this.sequelize);
+    this.PokemonsOwnedByTrainer = PokemonsOwnedByTrainer(this.sequelize);
+    this.EvolutionRelation = EvolutionRelation(this.sequelize);
 
-    this.trainer.hasMany(this.pokemonsOwnedByTrainer, {
+    this.Trainer.hasMany(this.PokemonsOwnedByTrainer, {
       foreignKey: "trainer_id",
     });
-    this.pokemon.hasMany(this.pokemonsOwnedByTrainer, {
+    this.Pokemon.hasMany(this.PokemonsOwnedByTrainer, {
       foreignKey: "pokemon_id",
     });
 
-    this.pokemon.hasMany(this.evolutionRelation, {
+    this.Pokemon.hasMany(this.EvolutionRelation, {
       foreignKey: "before_pokemon_id",
     });
-    this.pokemon.hasMany(this.evolutionRelation, {
+    this.Pokemon.hasMany(this.EvolutionRelation, {
       foreignKey: "after_pokemon_id",
     });
 
