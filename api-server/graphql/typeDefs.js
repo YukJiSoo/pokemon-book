@@ -4,10 +4,12 @@ module.exports = gql`
   type Query {
     pokemons: [Pokemon]
     pokemon(pokemonId: ID): Pokemon
+    myPokemons(trainerId: ID): [Pokemon]
   }
 
   type Mutation {
-    releasePokemon(pokemonId: ID): Pokemon
+    catchPokemon(trainerId: ID, pokemonId: ID): ID
+    releasePokemon(trainerId: ID, pokemonId: ID): Boolean
   }
 
   type Trainer {
