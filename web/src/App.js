@@ -1,7 +1,10 @@
 import React from "react";
+import { ApolloProvider } from "@apollo/react-hooks";
+
+import client from "./graphql/client";
 
 const App = () => {
-  return <div></div>;
+  return <ApolloProvider client={client}></ApolloProvider>;
 };
 
 export default App;
