@@ -1,0 +1,142 @@
+[
+  {
+    "name": "이상해씨",
+    "height": 7,
+    "weight": 69,
+    "desc": "양지에서 낮잠 자는 모습을 볼 수 있다.\n태양의 빛을 많이 받으면\n등의 씨앗이 크게 자란다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/1.png"
+  },
+  {
+    "name": "이상해풀",
+    "height": 10,
+    "weight": 130,
+    "desc": "꽃봉오리를 지탱하기 위해 하반신이 강해진다.\n양지에서 가만히 있는 시간이 길어지면\n드디어 커다란 꽃이 필 때다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/2.png"
+  },
+  {
+    "name": "이상해꽃",
+    "height": 20,
+    "weight": 1000,
+    "desc": "충분한 영양분과 태양의 빛이\n꽃의 색을 선명하게 만든다고 한다.\n꽃의 향기는 사람의 마음을 치유한다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/3.png"
+  },
+  {
+    "name": "파이리",
+    "height": 6,
+    "weight": 85,
+    "desc": "꼬리의 불꽃은 기분을 표현한다.\n즐거울 때는 흔들흔들 불꽃이 흔들리고\n화가 났을 때는 활활 맹렬히 불타오른다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/4.png"
+  },
+  {
+    "name": "리자드",
+    "height": 11,
+    "weight": 190,
+    "desc": "날카로운 발톱으로 봐주지 않고 때려눕힌다.\n강한 적을 만나면 기분이 고양되며\n꼬리의 불꽃이 푸르스름하게 불타오른다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/5.png"
+  },
+  {
+    "name": "리자몽",
+    "height": 17,
+    "weight": 905,
+    "desc": "강한 상대를 찾아 하늘을 날아다닌다.\n무엇이든 다 녹여버리는 고열의 불꽃을\n자신보다 약한 자에게 들이대지 않는다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/6.png"
+  },
+  {
+    "name": "꼬부기",
+    "height": 5,
+    "weight": 90,
+    "desc": "등껍질의 역할은 몸을 지키는 것뿐만이 아니다.\n둥그런 모양과 표면의 홈이 물의\n저항을 줄여서 빠르게 헤엄칠 수 있다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/7.png"
+  },
+  {
+    "name": "어니부기",
+    "height": 10,
+    "weight": 225,
+    "desc": "푹신한 털로 덮인 큰 꼬리는\n오래 살수록 깊은 색으로 변한다.\n등껍질의 상처는 강자임을 증명한다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/8.png"
+  },
+  {
+    "name": "거북왕",
+    "height": 16,
+    "weight": 855,
+    "desc": "등껍질의 분사구로 하는 조준은 정확하다.\n물 탄환으로 50m 떨어진\n빈 캔을 명중시킬 수 있다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/9.png"
+  },
+  {
+    "name": "캐터피",
+    "height": 3,
+    "weight": 29,
+    "desc": "빨리 성장하고 싶어서인지\n식욕이 왕성하여 하루에\n100장의 잎사귀를 먹는다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/10.png"
+  },
+  {
+    "name": "단데기",
+    "height": 7,
+    "weight": 99,
+    "desc": "껍질 안은 걸쭉한 액체다.\n진화를 대비하여 몸 전체의\n세포를 재구성하고 있다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/11.png"
+  },
+  {
+    "name": "버터플",
+    "height": 11,
+    "weight": 320,
+    "desc": "날개를 감싼 인분은 맹독이다.\n캐터피를 노리는 새포켓몬을\n발견하면 흩뿌려 내쫓는다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/12.png"
+  },
+  {
+    "name": "뿔충이",
+    "height": 3,
+    "weight": 32,
+    "desc": "굉장히 예민한 후각을 지니고 있다.\n좋아하는 잎사귀인지 싫어하는 잎사귀인지\n크고 빨간 코로 냄새 맡아 구별한다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/13.png"
+  },
+  {
+    "name": "딱충이",
+    "height": 6,
+    "weight": 100,
+    "desc": "거의 움직이지 않고 나무에 매달려 있지만\n내부는 진화 준비로 굉장히 바쁜 상태다.\n그 증거로 몸이 뜨거워져 있다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/14.png"
+  },
+  {
+    "name": "독침붕",
+    "height": 10,
+    "weight": 295,
+    "desc": "영역에 대한 집착이 매우 강해서 독침붕이\n사는 곳에는 가까이 가지 않는 것이 신상에 좋다.\n화나면 집단으로 습격해 온다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/15.png"
+  },
+  {
+    "name": "구구",
+    "height": 3,
+    "weight": 18,
+    "desc": "방향 감각이 매우 뛰어나서\n아무리 멀리 떨어진 곳에서도 헤매지 않고\n자신의 둥지까지 찾아 돌아올 수 있다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/16.png"
+  },
+  {
+    "name": "피죤",
+    "height": 11,
+    "weight": 300,
+    "desc": "넓은 영역을 날며 순찰한다.\n영역을 침범하는 상대는 용서하지 않는다.\n날카로운 발톱으로 철저히 혼내준다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/17.png"
+  },
+  {
+    "name": "피죤투",
+    "height": 15,
+    "weight": 395,
+    "desc": "아름답게 윤이 나는 깃털을 가진 포켓몬이다.\n머리 깃털의 아름다움에 마음을 빼앗겨\n피죤투를 기르는 트레이너도 많다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/18.png"
+  },
+  {
+    "name": "꼬렛",
+    "height": 3,
+    "weight": 35,
+    "desc": "평생 앞니가 계속 자란다.\n너무 많이 자라면 먹이를\n먹을 수 없어 굶어 죽는다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/19.png"
+  },
+  {
+    "name": "레트라",
+    "height": 7,
+    "weight": 185,
+    "desc": "뒷발의 작의 물갈퀴로\n바다를 헤엄쳐 섬을 건너\n적을 피해 도망쳤다고 한다.",
+    "image": "https://pokeres.bastionbot.org/images/pokemon/20.png"
+  }
+]
