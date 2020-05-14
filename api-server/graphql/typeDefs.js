@@ -3,13 +3,13 @@ const { gql } = require("apollo-server-express");
 module.exports = gql`
   type Query {
     pokemons: [Pokemon]
-    pokemon(pokemonId: ID): Pokemon
-    myPokemons(trainerId: ID): [Pokemon]
+    pokemon(pokemonId: ID!): Pokemon
+    myPokemons(trainerId: ID!): [Pokemon]
   }
 
   type Mutation {
-    catchPokemon(trainerId: ID, pokemonId: ID): ID
-    releasePokemon(trainerId: ID, pokemonId: ID): Boolean
+    catchPokemon(trainerId: ID!, pokemonId: ID!): ID
+    releasePokemon(trainerId: ID!, pokemonId: ID!): Boolean
   }
 
   type Trainer {
