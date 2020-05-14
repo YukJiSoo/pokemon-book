@@ -1,3 +1,21 @@
+const { GraphQLScalarType } = require("graphql");
+
+exports.Height = new GraphQLScalarType({
+  name: "Height",
+  description: "Height custom scalar type",
+  serialize(value) {
+    return `${value}cm`;
+  },
+});
+
+exports.Weight = new GraphQLScalarType({
+  name: "Weight",
+  description: "Weight custom scalar type",
+  serialize(value) {
+    return `${value}kg`;
+  },
+});
+
 exports.Pokemon = {
   evolvesFrom: async ({ id }, _, { Pokemon, EvolutionRelation }) => {
     const { before_pokemon_id: evoliveFromPokemonId } = await EvolutionRelation.findOne({ where: { id } });

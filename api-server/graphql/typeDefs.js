@@ -1,6 +1,9 @@
 const { gql } = require("apollo-server-express");
 
 module.exports = gql`
+  scalar Height
+  scalar Weight
+
   type Query {
     pokemons: [Pokemon]
     pokemon(pokemonId: ID!): Pokemon
@@ -21,8 +24,8 @@ module.exports = gql`
   type Pokemon {
     id: ID!
     name: String
-    weight: Int
-    height: Int
+    weight: Weight
+    height: Height
     desc: String
     image: String
     evolvesFrom: Pokemon
