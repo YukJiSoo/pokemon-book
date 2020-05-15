@@ -8,6 +8,7 @@ module.exports = gql`
     pokemons: [Pokemon]
     pokemon(pokemonId: ID!): Pokemon
     myPokemons(trainerId: ID!): [Pokemon!]
+    trainers: [Trainer]
   }
 
   type Mutation {

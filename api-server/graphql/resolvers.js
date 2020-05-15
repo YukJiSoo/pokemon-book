@@ -43,6 +43,10 @@ exports.Query = {
     const result = await Pokemon.findAll({ where: { id: pokemonIds } });
     return result;
   },
+  trainers: async (_, __, { Trainer }) => {
+    const result = await Trainer.findAll();
+    return result;
+  },
 };
 
 exports.Mutation = {
